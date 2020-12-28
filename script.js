@@ -3,7 +3,7 @@ $(document).ready(function() {
         let input = $('#searchBar').val();
         let inputFinal = input.replace(/\s/g, '+');
         let initUrl = 'http://www.omdbapi.com/?t=';
-        let apiKey = config.MY_KEY;
+        let apiKey = 'bd006c49';
         let apiUrl = '&apikey=' + apiKey;
         let finalUrl = initUrl + inputFinal + apiUrl;
         // console.log(finalUrl);
@@ -27,7 +27,7 @@ $(document).ready(function() {
             let input = $('#searchBar').val();
         let inputFinal = input.replace(/\s/g, '+');
         let initUrl = 'http://www.omdbapi.com/?t=';
-        let apiKey = config.MY_KEY;
+        let apiKey = 'bd006c49';
         let apiUrl = '&apikey=' + apiKey;
         let finalUrl = initUrl + inputFinal + apiUrl;
         // console.log(finalUrl);

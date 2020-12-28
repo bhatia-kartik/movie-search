@@ -6,7 +6,7 @@ $(document).ready(function() {
         let apiKey = 'bd006c49';
         let apiUrl = '&apikey=' + apiKey;
         let finalUrl = initUrl + inputFinal + apiUrl;
-        // console.log(finalUrl);
+        console.log(finalUrl);
         // console.log(inputFinal);
         $.ajax({
             url: finalUrl,

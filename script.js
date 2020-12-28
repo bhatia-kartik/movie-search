@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#searchButton').click(function() {
         let input = $('#searchBar').val();
         let inputFinal = input.replace(/\s/g, '+');
-        let initUrl = 'http://www.omdbapi.com/?t=';
+        let initUrl = 'https://www.omdbapi.com/?t=';
         let apiKey = 'bd006c49';
         let apiUrl = '&apikey=' + apiKey;
         let finalUrl = initUrl + inputFinal + apiUrl;
